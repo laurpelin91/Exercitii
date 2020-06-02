@@ -1,0 +1,195 @@
+/* CSS Document */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    background-image: url("Image/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #022843;
+    
+}
+#wrapper {
+    width: 980px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #D2E4E7;
+}
+#top header {
+    background-color: #022843;
+    width: 100%;
+    overflow: hidden;
+}
+#logo {
+    width: 20%;
+    padding: 10px 0;
+    float: left;
+}
+header nav {
+    float: right;
+    margin-top: 105px;
+    
+}
+header nav li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+a {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited {
+    background-color: #ACACAC;
+}
+a:hover {
+    color: #7299A2;
+}
+a:active {
+    color: #3BC1BF;
+}
+.imgcenter {
+    max-width: 100%;
+}
+h1 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    text-align: center;
+    margin: 10px;
+    padding: 10px 0;
+}
+p {
+    text-align: justify;
+}
+main {
+    float: left;
+    width: 60%;
+}
+article {
+    margin: 5px;
+    padding: 5px;
+}
+article header {
+    width: 50%;
+    float: right;
+    text-align: end;
+    padding: 10px 10px;
+}
+article header h4 {
+    display: inline-block;
+}
+.oldphoto {
+    width: 40%;
+    float: left;
+    margin: 10px 20px 10px 10px;
+    padding: 5px;
+    border: 1px solid #D8D8D8;
+}
+article p {
+    margin: 5px;
+    padding: 5px;
+}
+p::first-line {
+    text-indent: 40px;
+}
+aside {
+    float: right;
+    width: 40%;
+}
+aside header {
+    width: 100%;
+    text-align: end;
+    padding: 10px 10px;
+}
+aside header h3 {
+    display: inline-block;
+    margin-right: 30px;
+}
+aside ul {
+    width: 100%;
+    padding: 5px;
+    text-align: end;
+    list-style: none;
+    
+}
+#cuprins ul li {
+    margin: 50px 30px 0 0;
+}
+#cuprins ul li a {
+    text-decoration: none;
+    display:inline-block;
+    font-size: 2em;
+}
+main section iframe {
+    padding: 10px;
+    margin: 10px;
+}
+aside article header {
+    padding: 10px 30px;
+}
+aside article figure img {
+    width: 100%;
+    padding: 0 30px;
+}
+figcaption {
+    margin-left: 30px;
+}
+section {
+    margin: 5px;
+    padding: 5px;
+}
+.centre_img {
+    display: block;
+    overflow: hidden;
+}
+#pcvideo {
+    width: 100%;
+    padding: 30px 30px;
+}
+.imgcenter {
+    width: 100%;
+    overflow: hidden;
+}
+.photo {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #D8D8D8;
+}
+section header h4 {
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+.article_right {
+    float: right;
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.article_left {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+footer {
+    width: 100%;
+    background-color: #022843;
+    height: auto;
+    overflow: hidden;
+    padding: 10px;
+}
+footer p {
+    color: white;
+    text-align: center;
+}
+.strong {
+    font-weight: bold;
+}
+.em{
+    font-style: italic;    
+}
