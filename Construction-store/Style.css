@@ -1,0 +1,164 @@
+/* CSS Document */
+*{
+    box-sizing: border-box;
+}
+body {
+}
+#container {
+    width: 1050px;
+    margin: auto;
+    padding: 0;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    
+}
+#header {
+    margin: 0;
+    display: flex;
+}
+#center {
+    margin: 0;
+}
+#main {
+    padding-top: 10%;
+    margin: 0;
+}
+#sidebar {
+    margin: 0;
+}
+#footer {
+    background-color: #000;
+    margin: 20px 0 10px 0;
+    
+}
+img[src*="logo"]{
+    width: 300px;
+}
+
+#nav ul {
+    display: flex;
+    list-style: none;
+    padding-top: 2em;;
+    margin: 0;
+    
+}
+#nav ul li > a:hover{
+    color: #D2962A;
+    justify-content: space-around;
+    
+}
+#nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 800;
+    margin: 0.8em;
+}
+#section {
+    background-size: auto;
+    background-position: center;
+    margin: 0;
+    position: absolute;
+    
+}
+#moto {
+    background: #000;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    z-index: 2;
+}
+#moto > p {
+    color: #D2962A;
+    display: inline-block;
+    width: 300px;
+    font-size: 1em;
+    font-weight: 500;
+    position: relative;
+    z-index: 2;
+    top: 30%;
+    right: 30%;
+    text-align: center;
+}
+.center {
+    position: absolute;
+    overflow: hidden;
+    
+}
+#main > h6 {
+    float: right;
+    margin-right: 3em;
+    margin-top: 25em;
+}
+h1 {
+   clear:both;
+   padding: 1.5em 0 1em 0;
+}
+input[type="button"]{
+    paddind: 2em;
+    background: #000;
+    position: relative;
+    top: 5em;
+    left: 4.5em;
+    color:#D2962A;
+    border-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+img[src*="mare"] {
+    margin: 35em 0 0 0;
+}
+#article-main {
+    background: #EFC454;
+    margin-top: 50%;
+    padding: 3em 1em;
+    color: #000;
+}
+#article-main h2~p {
+    text-align: justify;
+}
+#article-sidebar {
+    margin-top: 30%;
+    padding: 3em 1em;
+    color: #000;
+    text-align: justify;
+}
+#article-main h2 {
+    margin-bottom: 2em;
+}
+#article-sidebar h2 {
+    margin-bottom: 2em;
+}
+img[src$="mica.jpg"] {
+    width: 99%;
+    margin: auto;
+}
+img[src*="logosm"] {
+    width: 200px;
+    mix-blend-mode: screen;
+    -webkit-filter: grayscale(100%)
+    contrast(200%);
+    filter: grayscale(100%)
+    contrast(100%);
+    opacity: 1;
+    padding: 30px 0 0 50px;
+}
+#footer h5{
+    margin-top: 1em;
+    text-align: center;
+    color: #EFC454;
+}
+#footer  p{
+    text-align: justify;
+    color: #EFC454;
+    margin: 2em 1em 0;
+}
+#footer input[type="button"] {
+    border-radius: 50px;
+    margin-bottom: 80%;
+    margin-left: -0.5em;
+    background: #EFC454;
+    color: #000;
+}
