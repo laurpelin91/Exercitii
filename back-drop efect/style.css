@@ -1,0 +1,27 @@
+/* CSS Document */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+div.background {
+    height: 100vh;
+    background-image: url("Images/utopia.jpg");
+    background-size: cover;
+}
+div.message {
+    background: rgba(255,255,255,0.50);
+    height: 4em;
+    width: 15em;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    font-size: 1.2;
+    position: fixed;
+    top: 20em;
+    left: 20em;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4em;
+    backdrop-filter: blur(0.6px);
+    color: #000;
+}
