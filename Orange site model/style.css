@@ -1,0 +1,144 @@
+/* CSS Document */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    background-image: url("images/headerback1.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    max-width: 1200px;
+    margin:auto;
+    
+
+}
+header {
+    background-color: #DD7E35; 
+    height: 50px;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 0;
+    list-style: none;
+}
+li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 1.1em;
+}
+header li::first-letter {
+    text-transform: uppercase;
+}
+article {
+    display: inline-block;
+    margin: 25% 0 10px 10px;
+    padding: 0px 15%;
+}
+h1 {
+    margin: 1.3em 0;
+    color: #DD7E35;
+}
+button {
+    background: #DD7E35;
+    color: #FFF;
+    margin: 1.3em 0;
+    border-style: none;
+    text-align: center;
+    padding: 0.7em 0;
+    border-radius: 10px;
+    width: 10%;
+}
+p {
+    width: 50%;
+}
+#article {
+    height: 100vh;
+    display: block;
+    text-align: center;
+    padding-top: 10%;
+    background-color: rgba(255,255,255,1.00);
+    background-size: cover;
+}
+#photo {
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 0;
+    
+}
+#article h1 {
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    
+}
+#labels {
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 0;
+    position: relative;
+    bottom: 23%;
+    z-index: 2;
+}
+.labels {
+    display: inline-block;
+    position: relative;
+    background: #DD7E35;  
+    width: 270px;
+    padding: 5px 0;
+    border-radius: 0 50% 0 0;
+    color: #FFF;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+#photo a {
+    text-decoration: none;
+    color: rgba(13,14,107,1.00);
+    font-size: 20px;
+    font-weight: bold;
+}
+container {
+    background-color: rgba(255,255,255,1.00);
+    background-size: auto;
+    height: 100vh;
+    display: flex;
+}
+.marta {
+    display: flex;
+    padding: 10em 10em 1em 10em;
+}
+.marta h3 {
+    padding: 5% 0 0 5%;
+    width: 100%;
+    z-index: 2;
+    color: #FFFFFF;
+}
+.marta h3::before {
+    content: "---  ";
+}
+.marta h3::after {
+    content: "  ---";
+    
+}
+#container p {
+    background: #DD7E35;
+    padding: 5em 0 3em 9em;
+    color: #FFFFFF;
+    position: absolute;
+    left: 650px;
+    border-radius: 0 200px 200px 0;
+    font-size: 20px;
+}
+.marta img {
+    border-radius: 50%;
+    z-index: 2;
+}
+#container form {
+    margin: 3em 0 0 60em;
+    padding: 10px;
+    width: 100%;
+}
